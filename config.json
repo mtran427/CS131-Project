@@ -1,0 +1,19 @@
+{
+  "fog_node": {
+    "id": "fog_node"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "debug": true
+  },
+  "firebase": {
+    "credentials_path": "./firebase-credentials.json",
+    "collections": {
+      "events": "events_data"
+    }
+  },
+  "sync": {
+    "interval_seconds": 1
+  }
+} 
